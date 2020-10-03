@@ -21,7 +21,6 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
-                <RowDefinition Height="*" />
 
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -39,8 +38,7 @@
             <Label Grid.Column="0" Grid.Row="2">Geburtsdatum</Label>
             <TextBox Grid.Column="1" Grid.Row="2" Text="{Binding Path=Birthdate}"></TextBox>
 
-            <Label Grid.Column="0" Grid.Row="3">Abzeichen</Label>
-            <TextBox Grid.Column="1" Grid.Row="3" Text="{Binding Path=AchievementBadge}"></TextBox>
+          
         </Grid>
 
         <UniformGrid Grid.Row="2" Rows="1">

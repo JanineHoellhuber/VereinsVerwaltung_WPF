@@ -33,7 +33,7 @@ namespace VereinsVerwaltung_WPF
 
             if (_mitglieder == null)
             {
-                DataContext = new Mitglieder() { Firstname = "Bitte Vorname eigeben", Lastname = "Bitte Nachname eingeben", Birthdate = Convert.ToDateTime("Bitte Datum eingeben bsp.: 09.11.1970"), AchievementBadge = "Bitte Abzeichen eingeben" };
+                DataContext = new Mitglieder() { Firstname = "Bitte Vorname eigeben", Lastname = "Bitte Nachname eingeben", Birthdate = Convert.ToDateTime("Bitte Datum eingeben bsp.: 09.11.1970") };
             }
             else
             {

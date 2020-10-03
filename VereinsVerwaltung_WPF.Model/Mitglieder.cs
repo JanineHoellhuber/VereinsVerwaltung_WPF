@@ -9,8 +9,11 @@ namespace VereinsVerwaltung_WPF.Model
         public string Firstname;
         public string Lastname;
         public DateTime Birthdate;
-        public string AchievementBadge;
+     //   public string AchievementBadge;
 
+
+    
+    
 
         public string Full_Name()
         {

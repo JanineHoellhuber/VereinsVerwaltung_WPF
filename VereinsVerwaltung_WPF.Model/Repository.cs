@@ -32,16 +32,18 @@ namespace VereinsVerwaltung_WPF.Model
         private void LoadCdsFromCsv()
         {
             string[][] mitgliederCsv = fileName.ReadStringMatrixFromCsv(true);
-            mitglieder = mitgliederCsv
-                .Select(line =>
-                new Mitglieder
-                {
-                    Firstname = line[0],
-                    Lastname = line[1],
-                  //  Birthdate = Convert.ToDateTime(line[2]),
-                    AchievementBadge = line[3]
+        
+                mitglieder = mitgliederCsv
+               .Select(line =>
+               new Mitglieder
+               {
+                   Firstname = line[0],
+                   Lastname = line[1],
+                   Birthdate = DateTime.Parse(line[2])
 
-                }).ToList();
+               }).ToList();
+            
+           
         }
 
         public void AddMitglied(Mitglieder mg)
