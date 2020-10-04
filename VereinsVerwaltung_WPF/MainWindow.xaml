@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VereinsVerwaltung_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="1007" MinWidth="392" MinHeight="180" x:Name="wndMain">
+        Title="MainWindow" Height="400" Width="807" MinWidth="392" MinHeight="180" x:Name="wndMain">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
