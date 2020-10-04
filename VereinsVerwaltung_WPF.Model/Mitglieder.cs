@@ -15,9 +15,11 @@ namespace VereinsVerwaltung_WPF.Model
 
 
 
-        public string Full_Name() 
-        { 
-            return Firstname + " " + Lastname;
+        public string Full_Name
+        {
+            get{
+                return Firstname + " " + Lastname;
+            }
         }
 
 
