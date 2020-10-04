@@ -21,7 +21,7 @@
                     <GridViewColumn Header="Vorname" Width="200" DisplayMemberBinding="{Binding Path=Firstname}" />
                     <GridViewColumn Header="Nachname" Width="200" DisplayMemberBinding="{Binding Path=Lastname}" />
                     <GridViewColumn Header="Name" Width="200" DisplayMemberBinding="{Binding Path=Full_Name}" />
-                    <GridViewColumn Header="Geburtsdatum" Width="200" DisplayMemberBinding="{Binding Path=Birthdate}" />
+                    <GridViewColumn Header="Geburtsdatum" Width="200" DisplayMemberBinding="{Binding Path=Birthdate, StringFormat='dd/MM/yyyy'}" />
 
 
                 </GridView>
