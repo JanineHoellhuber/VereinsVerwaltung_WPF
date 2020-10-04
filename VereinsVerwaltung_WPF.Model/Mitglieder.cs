@@ -6,14 +6,14 @@ namespace VereinsVerwaltung_WPF.Model
 {
     public class Mitglieder
     {
-        public string Firstname;
-        public string Lastname;
-        public DateTime Birthdate;
-     //   public string AchievementBadge;
+        public string Firstname { get; set; }
+        public string Lastname { get; set; }
+        public DateTime Birthdate { get; set; }
+        //   public string AchievementBadge;
 
 
-    
-    
+
+
 
         public string Full_Name()
         {
