@@ -4,6 +4,26 @@
              xmlns:local="clr-namespace:VereinsVerwaltung_WPF"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+
+
+        <Style TargetType="TextBlock" x:Key="Green">
+            <Setter Property="Control.FontSize" Value="20"/>
+            <Setter Property="Control.FontWeight" Value="Bold"/>
+            <Setter Property="Control.Foreground" Value="Orchid"/>
+            <Setter Property="Control.Margin" Value="5,10,0,20"/>
+
+        </Style>
+        
+        <Style TargetType="ListViewItem">
+            <Setter Property="Margin" Value="3,3,3,3"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="true">
+                    <Setter Property="Foreground" Value="Blue"/>
+                    <Setter Property="FontSize" Value="17"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        
+        
     </Application.Resources>
 </Application>
