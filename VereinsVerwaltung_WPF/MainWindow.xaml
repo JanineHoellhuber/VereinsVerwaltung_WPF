@@ -13,7 +13,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Margin="0,10,0,20" Style="{StaticResource ResourceKey=Green}">Vereinsverwaltung Segelfliegen</TextBlock>
+        <TextBlock Grid.Row="0" Margin="0,10,0,20" HorizontalAlignment="Center" Style="{StaticResource ResourceKey=Violet}">Vereinsverwaltung</TextBlock>
 
         <ListView Grid.Row="1" x:Name="lbxMitglieder">
             <ListView.View>

@@ -14,7 +14,7 @@
 
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Margin="0,10,0,20">Neues Mitglied anlegen oder bearbeiten</TextBlock>
+        <TextBlock Grid.Row="0" Margin="0,10,0,20"  HorizontalAlignment="Center" Style="{StaticResource ResourceKey=Goldenrod}">Neues Mitglied anlegen oder bearbeiten</TextBlock>
 
         <Grid Name="grdCdFields" Grid.Row="1">
             <Grid.RowDefinitions>

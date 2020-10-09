@@ -6,14 +6,22 @@
     <Application.Resources>
 
 
-        <Style TargetType="TextBlock" x:Key="Green">
+        <Style TargetType="TextBlock" x:Key="Violet">
             <Setter Property="Control.FontSize" Value="20"/>
-            <Setter Property="Control.FontWeight" Value="Bold"/>
+            <Setter Property="Control.FontWeight" Value="ExtraBlack"/>
             <Setter Property="Control.Foreground" Value="Orchid"/>
             <Setter Property="Control.Margin" Value="5,10,0,20"/>
 
         </Style>
-        
+
+        <Style TargetType="TextBlock" x:Key="Goldenrod">
+            <Setter Property="Control.FontSize" Value="16"/>
+            <Setter Property="Control.FontWeight" Value="DemiBold"/>
+            <Setter Property="Control.Foreground" Value="Goldenrod"/>
+            <Setter Property="Control.Margin" Value="5,10,0,20"/>
+
+        </Style>
+
         <Style TargetType="ListViewItem">
             <Setter Property="Margin" Value="3,3,3,3"/>
             <Style.Triggers>
