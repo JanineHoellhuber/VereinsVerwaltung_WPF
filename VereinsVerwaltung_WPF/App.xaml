@@ -5,12 +5,22 @@
              StartupUri="MainWindow.xaml">
     <Application.Resources>
 
+        <Style x:Key="WindowStyle" TargetType="Window">
+            <Setter Property="Background" Value="SeaShell"/>
+        </Style>
+        
 
         <Style TargetType="TextBlock" x:Key="Violet">
             <Setter Property="Control.FontSize" Value="20"/>
             <Setter Property="Control.FontWeight" Value="ExtraBlack"/>
             <Setter Property="Control.Foreground" Value="Orchid"/>
             <Setter Property="Control.Margin" Value="5,10,0,20"/>
+
+        </Style>
+
+        <Style TargetType="Button" x:Key="ButtonStyle">
+            <Setter Property="Control.FontSize" Value="15"/>
+            <Setter Property="Control.FontStyle" Value="Normal"/>
 
         </Style>
 
@@ -31,7 +41,10 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-        
-        
+
+        <Style TargetType="Button">
+            <Setter Property="Margin" Value="5,5,5,5"></Setter>
+            <Setter Property="MinHeight" Value="30"></Setter>
+        </Style>
     </Application.Resources>
 </Application>

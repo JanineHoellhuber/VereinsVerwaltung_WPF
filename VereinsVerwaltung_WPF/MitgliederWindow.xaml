@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VereinsVerwaltung_WPF"
         mc:Ignorable="d"
-     Title="MitgliederWindow" Height="200" Width="330">
+     Title="MitgliederWindow" Height="210" Width="330" Style="{StaticResource ResourceKey=WindowStyle}">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>

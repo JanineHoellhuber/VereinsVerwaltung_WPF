@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VereinsVerwaltung_WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="400" Width="807" MinWidth="392" MinHeight="180" x:Name="wndMain">
+        Title="MainWindow" Height="400" Width="830" MinWidth="392" MinHeight="180" x:Name="wndMain" Style="{StaticResource ResourceKey=WindowStyle}">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
@@ -13,7 +13,7 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
 
-        <TextBlock Grid.Row="0" Margin="0,10,0,20" HorizontalAlignment="Center" Style="{StaticResource ResourceKey=Violet}">Vereinsverwaltung</TextBlock>
+        <TextBlock Grid.Row="0" HorizontalAlignment="Center" Style="{StaticResource ResourceKey=Violet}">Vereinsverwaltung</TextBlock>
 
         <ListView Grid.Row="1" x:Name="lbxMitglieder">
             <ListView.View>
@@ -29,9 +29,9 @@
         </ListView>
 
         <UniformGrid Grid.Row="2" Columns="3">
-            <Button Margin="10,10,10,10" Content="_Neu" x:Name="btnnew"/>
-            <Button Margin="10,10,10,10" Content="_Löschen" x:Name="btndelete"/>
-            <Button Margin="10,10,10,10" Content="_Bearbeiten" x:Name="btnEdit"/>
+            <Button  Content="_Neu" x:Name="btnnew"/>
+            <Button  Content="_Löschen" x:Name="btndelete"/>
+            <Button Content="_Bearbeiten" x:Name="btnEdit"/>
 
         </UniformGrid>
     </Grid>
